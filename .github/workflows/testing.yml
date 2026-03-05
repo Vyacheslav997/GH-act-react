@@ -7,6 +7,6 @@ jobs:
       - name: Get the repos
         uses: actions/checkout@v6
       - name: Install depend
-        run: npm ci
+        run: npm Install
       - name: Test app
         run: npm run test
