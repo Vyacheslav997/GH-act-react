@@ -1,0 +1,11 @@
+name: Test react app
+on: push
+jobs:
+  truns-on: unubtu-latest
+  steps:
+    - name: Get the repos
+      uses: actions/checkout@v6
+    - name: Install depend
+      run: npm ci
+    - name: Test app
+      run: npm run test
