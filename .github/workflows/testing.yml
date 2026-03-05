@@ -2,7 +2,7 @@ name: Test react app
 on: push
 jobs:
   test:
-    truns-on: unubtu-latest
+    truns-on: ubuntu-latest
     steps:
       - name: Get the repos
         uses: actions/checkout@v6
